@@ -4,7 +4,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/responses";
+const API_URL = "https://exp5-online-survey-application.onrender.com/responses";
 
 function GetAllData() {
   const [responses, setResponses] = useState([]);
